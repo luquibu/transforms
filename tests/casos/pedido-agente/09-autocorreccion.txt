@@ -1,0 +1,1 @@
+eh bueno lo que quiero es que mires el pipeline de AxCloud, no, perdón, el de nexoTiendas, que falla en el paso de tests, y me digas qué pasa

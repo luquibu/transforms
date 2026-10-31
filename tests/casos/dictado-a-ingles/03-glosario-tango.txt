@@ -1,0 +1,1 @@
+Cuando llega la orden de Mercado Libre se genera el pedido en Tango, pero si el artículo está inhabilitado la orden queda observada y no se factura.

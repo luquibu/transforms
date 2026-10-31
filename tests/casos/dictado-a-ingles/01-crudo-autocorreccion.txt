@@ -1,0 +1,1 @@
+eh bueno lo que pasa es que el test este de CuentasSyncTests falla desde ayer creo que por el cambio de RabbitMQ no no por el de Kafka y me hace ruido que no haya fallado antes

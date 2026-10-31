@@ -1,0 +1,1 @@
+fijate en src-tauri/src/sync/mod.rs la función write_target que cuando el path tiene espacios falla con el error 0x80070005 en la versión 0.14.2

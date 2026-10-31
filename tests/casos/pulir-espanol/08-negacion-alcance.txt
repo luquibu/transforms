@@ -1,0 +1,1 @@
+solo hay que reintentar las novedades que fallaron con 429 no todas y nunca las que dieron 400 porque eso es terminal

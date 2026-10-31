@@ -1,0 +1,1 @@
+che podríamos revisar si el endpoint de órdenes devuelve 422 cuando falta el cuit no te parece que eso habría que validarlo antes de grabar el pedido

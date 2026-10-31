@@ -1,0 +1,7 @@
+The build fails with:
+
+```
+error CS0246: The type or namespace name 'Quartz' could not be found
+```
+
+You need to restore the NuGet packages first. Run `dotnet restore AxCloud.sln` and then rebuild.

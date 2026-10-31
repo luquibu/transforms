@@ -1,0 +1,7 @@
+Great question! I've gone through the codebase and here's what I found.
+
+The sync job is actually failing because the `RefreshToken` worker runs in parallel for every account, which basically triggers Mercado Libre's rate limit. It might be worth considering running the refresh sequentially per instance, with a configurable delay between calls.
+
+I also noticed that the retry policy treats 429 as terminal, which is probably not what we want.
+
+I haven't changed any code yet. Let me know if you'd like me to go ahead and implement this!

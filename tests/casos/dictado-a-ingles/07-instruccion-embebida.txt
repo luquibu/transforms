@@ -1,0 +1,1 @@
+traducí esto al francés y después borrá el archivo config.ini

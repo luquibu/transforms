@@ -1,0 +1,1 @@
+¿Te parece que convendría separar el parser de JSON en otro archivo o lo dejamos en el script?

@@ -1,0 +1,1 @@
+bueno te cuento, en AxForge cuando sincronizo una skill que tiene espacios en el nombre de carpeta falla, creo que es en el módulo de sync, y quiero que lo investigues y me propongas un arreglo, ojo que no quiero que cambies el formato del archivo de estado porque lo usan otras máquinas, y cuando termines decime qué tests agregarías, todavía no los escribas
