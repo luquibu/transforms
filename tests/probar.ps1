@@ -10,7 +10,7 @@ Nombre del prompt (por ejemplo pulir-espanol) para correr solo sus casos.
 Vuelve a aplicar el prompt sobre su propia salida (<caso>.2.txt) para ver si cambia poco o nada.
 
 .PARAMETER ArchivoClave
-Archivo con la clave de API. Sin este parámetro se usa la variable de entorno ANTHROPIC_API_KEY.
+Archivo con la clave de API. Sin este parámetro se usa la variable de entorno TRANSFORMS_API_KEY.
 #>
 param(
     [string]$Solo,
@@ -21,8 +21,8 @@ param(
 $ErrorActionPreference = 'Stop'
 $raiz = Split-Path $PSScriptRoot -Parent
 
-$clave = if ($ArchivoClave) { (Get-Content $ArchivoClave -Raw).Trim() } else { $env:ANTHROPIC_API_KEY }
-if (-not $clave) { throw 'Falta la clave: definí ANTHROPIC_API_KEY o pasá -ArchivoClave.' }
+$clave = if ($ArchivoClave) { (Get-Content $ArchivoClave -Raw).Trim() } else { $env:TRANSFORMS_API_KEY }
+if (-not $clave) { throw 'Falta la clave: definí TRANSFORMS_API_KEY o pasá -ArchivoClave.' }
 
 function Leer-Ini([string]$ruta) {
     $ini = @{}; $seccion = $null

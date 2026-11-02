@@ -12,7 +12,7 @@ Script de AutoHotkey v2 que queda residente en la bandeja. Seleccionás texto en
 ## Instalación
 
 1. Instalá AutoHotkey v2 desde autohotkey.com.
-2. Creá la variable de entorno de usuario `ANTHROPIC_API_KEY` con tu clave: Configuración de Windows → buscá "variables de entorno" → "Editar las variables de entorno de esta cuenta" → Nueva.
+2. Creá la variable de entorno de usuario `TRANSFORMS_API_KEY` con tu clave: Configuración de Windows → buscá "variables de entorno" → "Editar las variables de entorno de esta cuenta" → Nueva. No la llames `ANTHROPIC_API_KEY`: Claude Code y las apps que lo lanzan toman esa variable automáticamente y facturan su uso a tu clave.
 3. Abrí `transforms.ahk` con doble clic. Para que arranque con Windows, poné un acceso directo a `transforms.ahk` en la carpeta que abre `shell:startup` (Win+R).
 
 ## Uso

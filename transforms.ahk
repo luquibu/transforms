@@ -68,11 +68,11 @@ Transformar(cfg, *) {
         return
     }
     ; La variable se relee del registro porque Recargar hereda el entorno con el que arrancó el script.
-    clave := EnvGet("ANTHROPIC_API_KEY")
+    clave := EnvGet("TRANSFORMS_API_KEY")
     if clave = ""
-        clave := RegRead("HKCU\Environment", "ANTHROPIC_API_KEY", "")
+        clave := RegRead("HKCU\Environment", "TRANSFORMS_API_KEY", "")
     if clave = "" {
-        Avisar("Falta la variable de entorno ANTHROPIC_API_KEY.")
+        Avisar("Falta la variable de entorno TRANSFORMS_API_KEY.")
         return
     }
 
